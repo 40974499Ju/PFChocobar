@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulario para obtener mas informacion sobre los viajes a las auroras polares">
+    <title>blessedlight-Contacto</title>
+    <link rel="stylesheet" href="scss/estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dsist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+        <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid dark">
+                <img src="img/Blanco_y_Azul_Bokeh_Página_Web_Banner-removebg-preview.png" alt="logo de blessedlight"
+                    class="logo">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-disabled="true" href="./norte.html">Norte</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-disabled="true" href="./sur.html">Sur</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-disabled="true" href="./viajes.html">viajes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-disabled="true" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- titulo principal -->
+        <h1 class="titulo">Ahora que sabes a donde ir, la pregunta es ¿CUANDO?</h1>
+
+
+        <!-- creacion del formulario -->
+        <div class="container">
+            <form>
+                <div class="row">
+                    <div class="col">
+                        <form>
+                            <div class="mb-3">
+                                <label for="Nombre" class="form-text"> Nombre</label>
+                                <input type="text" class="form-control" id="Nombre">
+
+                            </div>
+                            <div class="mb-3">
+                                <label for="Apellido" class="form-text"> Apellido</label>
+                                <input type="text" class="form-control" id="Apellido">
+
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefono" class="form-text"> Telefono</label>
+                                <input type="number" class="form-control" id="Telefono">
+
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">E-mail</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">Nunca compartiremos su correo no nadie mas.
+                                </div>
+                            </div>
+
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="reset" class="btn btn-primary">Reset</button>
+                        </form>
+                    </div>
+
+
+                </div>
+
+
+
+
+
+                <!-- USAMOS LA ETIQUERA TEXTAREA PARA QUE LOS CLIENTES ESCRIBAN QUE EXPERICIENCIA QUIERN VIVIR -->
+                <div class="row">
+                    <div class="col">
+                        <h2 class="contacto">¿Que experiencia les gustaria vivir?</h2>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="input-group">
+                            <span class="input-group-text">Deje su mensaje</span>
+                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="reset" class="btn btn-primary">Reset</button>
+
+
+                    </div>
+
+                </div>
+
+
+
+
+
+            </form>
+        </div>
+
+
+
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+<!-- pie de pagina -->
+<footer class="piedepagina">
+
+    <!-- aca van las redes sociales  -->
+    <div class="container">
+        <div class="row justify-content-center text-center p-2">
+            <div class="col-2 " class="piedepagina">
+                <a class="enlaces text-center" href="https://es-la.facebook.com/" target="_blank"><i
+                        class="bi bi-facebook iconoFacebook"></i></a>
+
+            </div>
+            <div class="col-2">
+                <a class="enlaces" href="https://www.youtube.com/" target="_blank"><i
+                        class="bi bi-youtube iconoYoutube"></i></a>
+
+            </div>
+            <div class="col-2">
+
+                <a class="enlaces" href="https://www.instagram.com/" target="_blank"><i
+                        class="bi bi-instagram iconoInstagram"></i></a>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+</html>

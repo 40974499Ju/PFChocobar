@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .list-group {
+    display: flex;
+    margin-right: 50px;
+    padding: 50px;
+    justify-content: end;
+  }
+  
+  /* listas */
+  
+  .listasDesordenadas {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 5px;
+  }
+  
+  /* estilos a lista para sacar los puntitos de la lista del menu de navegacion*/
+  
+  li {
+    list-style: none;
+  }
+  
+  .contacto {
+    color: rgb(36, 27, 44);
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .sur {
+    color: rgb(36, 27, 44);
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  .enlaces {
+    text-align: center;
+    font-size: small;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* aplicar estilo al menu de navegacion*/
+  
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .enlaces {
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px;
+  }
+  
+  div {
+    font-size: 20px;
+  }
+
+    
+
+
+
+
